@@ -12,7 +12,7 @@ services:
     build: 
       context: ./client
       args:
-        VITE_API_URL: http://localhost:4000/api
+        VITE_API_URL: http://13.60.13.176:4000/api
     container_name: frontend
     restart: always
     stdin_open: true
